@@ -1,0 +1,121 @@
+/*
+	"THEMES PANEL" FOR FILES PREVIEW AT ENVATO 
+	Author: http://themeforest.net/user/navigator
+*/
+#themes_panel {
+	position: fixed;
+	top: 120px;
+	z-index: 9999;
+}
+
+#themes_menu {
+	float: left;
+	width: 90px;
+	background: #f2eadd;
+	color: #5a5650;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.8);
+	border-right: 1px solid #d4c9b8;
+	border-bottom: 1px solid #d4c9b8;
+	-moz-border-bottom-right-radius: 2px;
+		 border-bottom-right-radius: 2px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.07);
+}
+
+#toggle_button {
+	position: absolute;
+	right: -30px;
+	width: 30px;
+	height: 30px;
+	background-color: #e2dacc;
+	background-image: url("themes_panel.png");
+	-moz-border-top-right-radius: 2px;
+		 border-top-right-radius: 2px;
+	-moz-border-bottom-right-radius: 2px;
+		 border-bottom-right-radius: 2px;
+	border: 1px solid #d4c9b8;
+	border-left: none;
+	border-top: none;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.07);
+}
+#toggle_button.opened {background-position: 0px -30px;}
+#toggle_button a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+}
+
+#themes_menu .segment {
+	padding: 10px 0px 6px 8px;
+	margin-bottom: 2px;
+	overflow: hidden;
+	border-bottom: 1px solid #dfd5c5;
+}
+#themes_menu .segment h3 {
+	margin: 5px 0px 15px;
+	color: #707070;
+	line-height: 17px;
+	font-size: 17px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: none;
+}
+#themes_menu .segment.noborder {padding-top: 4px; border: none;}
+#themes_menu ul.buttons {margin-top: 6px; padding: 0px; list-style: none;}
+#themes_menu ul.buttons li {float: left;}
+#themes_menu ul.buttons li a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0px 6px 6px 0px;
+	line-height: 0px;
+	border: none;
+}
+
+#themes_menu ul.buttons li a.theme_orange {background: #FF6837;}
+#themes_menu ul.buttons li a.theme_red {background: #fe4444;}
+#themes_menu ul.buttons li a.theme_pink {background: #F23A65;}
+#themes_menu ul.buttons li a.theme_purple {background: #a93969;}
+#themes_menu ul.buttons li a.theme_blue {background: #2A8FBD;}
+#themes_menu ul.buttons li a.theme_cyan {background: #00C4CC;}
+#themes_menu ul.buttons li a.theme_green {background: #8bb131;}
+#themes_menu ul.buttons li a.theme_yellow {background: #ffae00;}
+#themes_menu ul.buttons li a.theme_grey {background: #808789;}
+
+#themes_menu ul.buttons li a.bg1-thumb {background: url(bg-thumbs/1.html);}
+#themes_menu ul.buttons li a.bg2-thumb {background: url(bg-thumbs/2.html);}
+#themes_menu ul.buttons li a.bg3-thumb {background: url(bg-thumbs/3.html);}
+#themes_menu ul.buttons li a.bg4-thumb {background: url(bg-thumbs/4.html);}
+#themes_menu ul.buttons li a.bg5-thumb {background: url(bg-thumbs/5.html);}
+#themes_menu ul.buttons li a.bg6-thumb {background: url(bg-thumbs/6.html);}
+
+.layout {margin: 0px; padding: 0px}
+.layout li {
+	margin: 6px 0px 4px 0px;
+	padding: 0px;
+	width: 72px;
+	height: 22px;
+}
+
+.layout li.wide {background: url("btn_layout.html") 0px 0px;}
+.layout li.wide:active {background-position:  0px 1px;}
+.layout li.wide.selected {background: url("btn_layout.html") 0px -22px;}
+.layout li.boxed {background: url("btn_layout.html") 0px -44px;}
+.layout li.boxed:active {background-position:  0px -43px;}
+.layout li.boxed.selected {background: url("btn_layout.html") 0px -66px;}
+
+.layout li a {
+	display: block;
+	width: 72px;
+	height: 22px;
+	border: none;
+}
+
+#themes_panel a.reset_btn { 
+	color: #2d70bb;
+	font-size: 11px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+#themes_panel a.reset_btn:hover {color:#ff4000;}

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北师大实验中学计算机社</title>
+    <link rel="shortcut icon" href="./images/logo.ico" />
+	<!-- /META -->
+    
+    <!-- CSS -->
+    <!--link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'-->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/colors.css" />
+	<!-- /CSS -->
+
+	<!-- Themes Panel -->
+    <link rel="stylesheet" href="themes_panel/themes_panel.css" />
+    <!-- /Themes Panel -->
+</head>
+
+<body id="red">
+
+	<!-- BEGIN - Themes Panel -->
+    <!--div id="themes_panel">
+        <div id="toggle_button"><a href="#"></a></div>
+        <div id="themes_menu">
+            <div class="segment">
+                <h3>Colors</h3>
+                <ul class="color buttons">
+					<li><a href="#" title="red" class="theme_red"></a></li>
+					<li><a href="#" title="pink" class="theme_pink"></a></li>
+					<li><a href="#" title="orange" class="theme_orange"></a></li>
+					<li><a href="#" title="blue" class="theme_blue"></a></li>
+					<li><a href="#" title="cyan" class="theme_cyan"></a></li>
+                    <li><a href="#" title="green" class="theme_green"></a></li>
+                </ul>
+            </div>
+            <div class="segment noborder">
+                <a class="reset_btn" href="#">Click to Reset</a>
+            </div>
+        </div>
+    </div-->
+    <!-- END - Themes Panel -->
+
+
+	<!-- Preloader -->
+	<div id="preloader-bg">
+		<div id="preloader"></div>
+	</div>
+
+	<header>
+		<div class="container">
+
+			<!-- BEGIN NAVIGATION -->
+			<nav class="navbar custom-nav" role="navigation">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-nav">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">SDSZCST</a></div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="custom-nav">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="selected" href="index.html">主页</a></li>
+						<li><a href="https://forum.sdszcst.com">论坛</a></li>
+						<li><a href="https://git.sdszcst.com">Git仓库</a></li>
+						<li class="dropdown custom-dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">应用 +</a>
+							<ul class="dropdown-menu">
+								<li><a href="rand.php">随机数生成器</a></li>
+								<li><a href="./2048">2048</a></li>
+								<li><a href="404.html">404 page</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">关于我们</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+
+		<!-- BEGIN Home Slider -->
+		<div id="home-slider">
+			<ul id="slides">
+				<!-- Slide 1. -->
+				<li>
+					<div class="bg-image bg1"></div>
+					<div class="overlay color-1"></div>
+
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-8 col-md-6">
+								<h1>一个“玩”的社团</h1>
+								<p>计算机社是一个玩的社团，我们玩电脑但不只是玩游戏，我们用各种方式玩计算机</p>
+								<a href="#wechat" data-toggle="modal" class="btn btn-custom yellow">申请加入</a>
+								<a href="forum.sdszcst.com" class="btn btn-custom empty">论坛</a>
+							</div>
+						</div>
+					</div>
+					
+					
+				</li>
+
+			
+				<!-- Slide 2. -->
+				<li>
+					<div class="bg-image bg2"></div>
+					<div class="overlay color-2"></div>
+
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-8 col-md-6">
+								<h1>免费的Git仓库</h1>
+								<p>我们提供免费的Git公开仓库和私有仓库</p>
+								<a href="https://git.sdszcst.com" class="btn btn-custom yellow">注册</a>
+								<a href="https://git.sdszcst.com" class="btn btn-custom empty about-me">登录</a>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				
+				<!-- Slide 3. -->
+				<li>
+					<div class="bg-image bg3"></div>
+					<div class="overlay color-3"></div>
+
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-8 col-md-6">
+								<h1>信息学竞赛</h1>
+								<p>加入我校实力强劲的信息学竞赛队</p>
+								<a href="http://sy.tsinsen.com" class="btn btn-custom filed yellow">访问Tsinsen</a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+			<ul class="btn-slider">
+                <li><a data-id="1" href="#" class="active-slide"></a></li>
+                <li><a data-id="2" href="#"></a></li>
+                <li><a data-id="3" href="#"></a></li>
+            </ul>
+
+			<img src="images/me.png" alt="me" class="me img-responsive" />
+		</div>
+		<!-- END Home Slider -->
+
+		<!-- Begin Slogan -->
+		<div class="container">
+			<span class="slogan">A Funny<span class="yellow">&amp;</span>Meaningful<span class="transparent">Club</span></span>
+		</div>
+	</header>
+	<!-- /////////////////////////////////////////////////////////////////////////////// -->
+
+	<!-- BEGIN MAIN CONTENT -->
+	<div class="container boxed">
+
+		<div class="row">
+			<h2 class="col-md-8 col-md-offset-2">在学习中实践，在实践中玩</h2>
+		</div>
+
+		<hr id="about-me" class="medium" />
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>关于北师大实验中学计算机社</h3>
+				<p>北师大实验中学计算机社是一个年轻的社团，它成立于2015年9月，至今两岁。这两年中我们的重要活动有《信息学基础知识》编写和2016年北师大实验中学科技节相关项目的承办。</p>
+				<p>北师大实验中学计算机社也是一个实力强劲的社团，我们有金牌导师胡伟栋老师，有2017年IOI中国代表队成员徐明宽同学，和诸多在竞赛、科技、活动等表现优异的同学。</p>
+			</div>
+			<!--div class="col-md-6">
+				<h3>我们会做的</h3>
+				<ul class="services list-unstyled">
+					<li class="service1">算法设计<br>算法竞赛</li>
+					<li class="service2">Responsive design per pharetra habitant eget senectus amet, augue rutrum ac id habitant eget senectus.</li>
+					<li class="service3">Innovation and new for nulla per pharetra habitant eget senectus amet, augue rutrum ac id per pharetra habitant eget senectus .</li>
+					<li class="service4">Creativite works for nulla per pharetra habitant eget senectus amet, augue rutrum ac id.</li>
+				</ul>
+			</div-->
+		</div>
+
+		<div class="row full-width">
+			<div class="subscribe-container">
+				<img class="parallax-bg" src="images/subscribe-bg.jpg" alt="" />
+
+				<div class="row">
+					<p class="col-md-8 col-md-offset-2">随时获取我们的最新动态</p>
+				</div>
+
+				<div class="row">
+					<!-- Begin Subscribe Form -->
+		            <form id="subscribe" class="col-md-8 col-md-offset-2">
+		                <input href="#wechat" data-toggle="modal" class="btn-custom green" type="button" name="submit" value="关注微信公众号" />
+		            </form><!-- End Subscribe Form -->
+				</div>
+			</div>
+		</div>
+
+		<!-- BEGIN Portfolio Recent Items -->
+		<div class="row">
+			<h2 class="col-md-8 col-md-offset-2">我们的社团理念</h2>
+		</div>
+
+		<hr class="bottom" />
+
+		<!-- work 1 -->
+		<div class="row">
+			<div class="col-md-6">
+				<h3>计算机科学是应用的科学</h3>
+				<p>比起算法等纯理论类的研究，计算机科学更偏向与工程，是应用的科学。它广泛应用在各个领域，作为工具为其他研究和工作提供帮助。</p>
+				<p>我们希望并鼓励我们的社员可以学以致用，将理论应用于实际，创造价值。</p>
+			</div>
+			<div class="col-md-6">
+				<!-- Button trigger modal -->
+				<div class="trigger-modal">
+					<img class="img-responsive" src="images/works/work1.png" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<hr />
+
+		<!-- work 2 -->
+		<div class="row">
+			<div class="col-md-6">
+				<!-- Button trigger modal -->
+				<div class="trigger-modal">
+					<img class="img-responsive" src="images/works/work2.png" alt="" />
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h3>计算机是多学科领域交叉的枢纽</h3>
+				<p>当今世界，交叉学科更能出成绩，产生价值。计算机科学作为工具，应用面极广，具有极强的交叉学科优势，是最好的多学科领域交叉的枢纽。</p>
+				<p>我们鼓励社员运用计算机知识解决其他领域问题，为未来学习、研究、工作中的需要打好基础</p>
+			</div>
+		</div>
+
+		<hr />
+
+		<!-- work 3 -->
+		<div class="row">
+			<div class="col-md-6">
+				<h3>有意思 &amp; 有意义</h3>
+				<p>有意思和有意义常常不能兼得，但我们知道，计算机科学是有意义的，也是有意思的。</p>
+				<p>我们希望每一个热爱计算机科学的同学在学习计算机科学的过程中收获意义，同时也体会快乐。在学中玩，在玩中学。</p>
+				<p>A Funny&amp;Meaningful Club</p>
+			</div>
+			<div class="col-md-6">
+				<!-- Button trigger modal -->
+				<div class="trigger-modal">
+					<img class="img-responsive" src="images/works/work3.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<!-- END Portfolio Recent Items -->
+
+		<hr />
+
+		
+		<!--hr class="bottom" /-->
+
+		<!-- BEGIN Social Networks -->
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>关注我们</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<ul class="social-networks scale-it">
+					<li><a class="wechat" data-toggle="modal" href="#wechat"></a></li>
+					<li><a class="github" href="https://github.com/sdsz"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- END Social Networks -->
+		
+		<!-- Modal -->
+		<div class="modal custom-modal fade" id="wechat" tabindex="-1" role="dialog" aria-labelledby="work1" aria-hidden="true">
+			<div class="modal-dialog">
+				<div align="center">
+					<img class="img-responsive" src="http://open.weixin.qq.com/qr/code/?username=sdszcst" alt="" />
+				</div>
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- /////////////////////////////////////////////////////////////////////////////// -->
+		<footer>
+			<div class="row">
+				<div class="col-sm-6 col-xs-12 footer-share">
+					<p>在学习中实践，在实践中玩</p>
+					<p>
+						<a href="http://www.sdsz.com.cn"><img src="./images/sdsz.png" height="30" width="30" /></a>
+						<a href="http://www.sdszcst.com"><img src="./images/cst.png" height="30" width="30" /></a>
+					</p>
+				</div>
+
+				<div class="col-sm-6 col-xs-12 footer-info">
+					<p>北师大实验中学计算机社 | Copyright © 2015-2017.</p>
+					<p class="to-top">顶上去<a href="#">&nbsp;</a></p>
+				</div>
+			</div>
+		</footer>
+
+	</div><!-- END MAIN CONTENT -->
+
+	<!-- SCRIPTS + JQUERY -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/default.js"></script>
+
+    <!-- Twitter Share button JS -->
+    <!--script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script-->
+	<!-- /SCRIPTS + JQUERY -->
+
+	<!-- Themes Panel -->
+    <script src="themes_panel/themes_panel.js"></script>
+    <!-- /Themes Panel -->
+</body>
+</html>
